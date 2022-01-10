@@ -1,0 +1,21 @@
+comands
+
+npm run compile:js
+npm run compile:css
+npm run compile:fonts
+
+
+
+AA,AB,AE,AP,AK,AS,BC,GU,HI,MB,NB,NL,NT,NS,NU,ON,PE,PR,QC,SK,VI,YT
+
+-----------------------------------------------------------------------------------
+
+mkdir app_custom_training
+
+cd app_custom_training
+
+npm install -g sgmf-scripts --> Path Setting 1.do to run  %appdata%
+                                             2.go to npm folder and copy path of folder
+                                             3.add it to edit User Account Envirement Variables.
+ 
+sgmf-scripts --createCartridge app_custom_sfra_training
